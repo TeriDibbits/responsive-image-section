@@ -1,0 +1,30 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.section {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
+a {
+  background-color: #555;
+  border-radius: 3px;
+  color: #fff;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+}
