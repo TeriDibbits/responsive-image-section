@@ -25,6 +25,14 @@ a {
   padding: 1em;
 }
 
+a:hover{
+  background-color: #000;
+}
+
 img {
   width: 100%;
+}
+
+p {
+  margin-top: 0;
 }
